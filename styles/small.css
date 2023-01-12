@@ -18,36 +18,41 @@ li {
 
 header {
     padding: 10px 0;
-    background-color: rgb(24, 243, 152);
-    border-radius: 7px;
+    background-color: rgb(50, 15, 134);
+    border-radius: 10px;
 }
 
 header img {
-    box-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+    box-shadow: 3px 4px 3px rgb(0, 0, 0), -3px -3px 5px rgb(0, 0, 0);
     width: 150px;
     height: 200px;
-    border-radius: 2px;
+    border-radius: 10px;
     margin: 0 auto;
     display: block;
 }
 
 header h1 {
     font-size: 23px;
-    color: black;
+    color: rgb(255, 255, 255);
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
-    text-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0), -3px -3px 5px rgb(0, 0, 0);
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
 }
 
 h2 {
-    font-size: 15px;
-    text-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0), 0px 0px 1px rgb(0, 0, 0);
 }
 
 hr {
-    border: 1px solid grey;
-    background-color: grey;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 hr.top {
@@ -61,7 +66,7 @@ a {
 }
 
 main p {
-    margin-top: -8px;
+    margin-top: -5px;
     font-style: italic;
 }
 
@@ -69,12 +74,13 @@ footer {
     margin-top: 35px;
     display: grid;
     grid-template-columns: 100%;
-    background-color: rgb(24, 243, 152);
+    background-color: rgb(50, 15, 134);
     border-radius: 7px;
     justify-items: center;
+    color: rgb(255, 255, 255);
 }
 
 .updated {
-    color: rgb(25, 13, 80);
+    color: rgb(149, 253, 5);
     margin-top: -10px;
 }
