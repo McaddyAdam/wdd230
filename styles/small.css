@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto+Mono');
+#content {
+    margin: 10px auto;
+    padding: 0 15px;
+    max-width: 620px;
+}
+
+h1,
+h2 {
+    font-family: "Roboto Mono", monospace;
+}
+
+p,
+li {
+    font-family: "Roboto Slab", Serif;
+    font-size: 14px;
+}
+
+header {
+    padding: 10px 0;
+    background-color: rgb(24, 243, 152);
+    border-radius: 7px;
+}
+
+header img {
+    box-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+    width: 150px;
+    height: 200px;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: block;
+}
+
+header h1 {
+    font-size: 23px;
+    color: black;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    text-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+}
+
+h2 {
+    font-size: 15px;
+    text-shadow: 3px 3px 5px grey, -3px -3px 5px grey;
+}
+
+hr {
+    border: 1px solid grey;
+    background-color: grey;
+}
+
+hr.top {
+    margin-top: -10px;
+}
+
+a {
+    color: blue;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+main p {
+    margin-top: -8px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: rgb(24, 243, 152);
+    border-radius: 7px;
+    justify-items: center;
+}
+
+.updated {
+    color: rgb(25, 13, 80);
+    margin-top: -10px;
+}
