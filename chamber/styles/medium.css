@@ -20,7 +20,7 @@
                 margin-top: 73px;
             }
             footer {
-                font-size: 38px;
+                font-size: 30px;
             }
             .contact img {
                 width: 100px;
@@ -162,7 +162,7 @@
             .light-blue h4 {
                 font-size: 1.4rem;
             }
-            /* ----------------Join Ibadan Special Club -------------*/
+            /* ----------------Join Abeokuta Special Club -------------*/
             #form {
                 margin: 0 auto 40px auto;
                 max-width: 700px;
@@ -197,7 +197,7 @@
             td {
                 font-size: 15px;
             }
-            /* -------------------------------------Ibadan Business Directory Page-----------------------------------------------*/
+            /* -------------------------------------Abeokuta Business Directory Page-----------------------------------------------*/
 
   .cards {
     grid-template-columns: repeat(2, 1fr);

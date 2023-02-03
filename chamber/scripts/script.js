@@ -65,23 +65,23 @@ window.addEventListener("load", () => {
 
 function active() {
     switch (document.title) {
-        case "Ibadan Chamber of Commerce":
+        case "Abeokuta Chamber of Commerce":
             document.querySelector("#home").classList.add("active");
             break;
 
-        case "Ibadan Chamber of Commerce - Discover":
+        case "Abeokuta Chamber of Commerce - Discover":
             document.querySelector("#discover").classList.add("active");
             break;
 
-        case "Ibadan Chamber of Commerce - Join":
+        case "Abeokuta Chamber of Commerce - Join":
             document.querySelector("#join").classList.add("active");
             break;
 
-        case "Ibadan Chamber of Commerce - Directory":
+        case "Abeokuta Chamber of Commerce - Directory":
             document.querySelector("#directory").classList.add("active");
             break;
 
-        case "Ibadan Chamber of Commerce - Contact":
+        case "Abeokuta Chamber of Commerce - Contact":
             document.querySelector("#contact").classList.add("active");
             break;
     }
