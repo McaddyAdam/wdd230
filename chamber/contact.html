@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--edit this later-->
+    <meta name="description" content="Abeokuta Chamber of Commerce Contact Page" />
+    <title>Abeokuta Chamber of Commerce - Contact</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body id="content">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://instagram.com/iam_mcaddy?igshid=YmMyMTA2M2Y="><img src="images/instagram.PNG" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com/in/adamadebesin"><img src="images/linkedin.PNG" alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="contact.html">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="date"></div>
+
+        <div class="banner">
+            <h4>
+              🤝🏼 Come join us for the chamber meet every Friday at 5:00 p.m.
+            </h4>
+        </div>
+    </header>
+    <main id="contactmain">
+        <section class="contact-page">
+          <h3>Have Some Questions?</h3>
+          <div class="contact-card">
+            <div class="contact-address">
+              <div class="address-grid">
+                <img src="./images/NG.png" alt="Flag of Nigeria" />
+              </div>
+              <p>Ikija, Abeokuta North, Abeokuta, Ogun State, Nigeria</p>
+            </div>
+            <div class="contact-grid">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player
+                src="https://assets5.lottiefiles.com/packages/lf20_phfi20ra.json"
+                background="transparent"
+                speed="0.4"
+                loop
+                class="envelop"
+                autoplay
+              ></lottie-player>
+  
+              <form
+                class="contact-form"
+                action="message-received.html"
+                method="get"
+              >
+                <label class="contact-blockview"
+                  >First Name
+                  <input
+                    type="text"
+                    placeholder="First name"
+                    name="fname"
+                    required
+                /></label>
+  
+                <div class="gap">
+                  <label class="contact-blockview"
+                    >Last Name
+                    <input
+                      type="text"
+                      placeholder="Last name"
+                      name="lname"
+                      required
+                  /></label>
+                </div>
+                <div class="gap">
+                  <label class="contact-blockview"
+                    >Email
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="someone@example.com"
+                      required
+                  /></label>
+                </div>
+                <div class="gap">
+                  <label class="contact-blockview"
+                    >Business Name
+                    <input type="text" name="businessname" required
+                  /></label>
+                </div>
+                <div class="gap">
+                  <label class="contact-blockview"
+                    >Your questions...
+                    <textarea
+                      name="description"
+                      rows="4"
+                      cols="50"
+                      required
+                    ></textarea>
+                  </label>
+                </div>
+  
+                <input type="hidden" id="time" name="time" />
+  
+                <input
+                  id="contact-submitBtn"
+                  type="submit"
+                  value="Send Message"
+                />
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo" /></a>
+                <h3>Chamber of Commerce</h3>
+                <p>
+                  Ikija, Abeokuta North, Abeokuta <br /> Ogun State, Nigeria
+                </p>
+                <p>
+                    +234-913-069-4355
+                </p>
+            </div>
+            <div class="contact">
+              <a href="mailto:info@ibadanchamber.com"><img src="images/email.PNG" alt="email" /></a>
+              <a href="https://www.linkedin.com/in/adamadebesin"><img src="images/linkedin.PNG" alt="LinkedIn"></a>
+              <a href="https://instagram.com/iam_mcaddy?igshid=YmMyMTA2M2Y="><img src="images/instagram.PNG" alt="Instagram" /></a>
+              <a href="https://www.google.com/maps/dir//Olumo+Rock,+Muhammadu+Jega+Rd,+110122,+Adzho,+Ogun+State/@7.2300144,3.4364918,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x103a37c0171b639b:0x310c8d61d35befdb!2m2!1d3.4386739!2d7.2300078"><img src="images/location.png" alt="map icon"></a>
+          </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> Abeokuta Chamber <br />
+            Adam Adebesin <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Abeokuta Chamber | Adam Adebesin | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Abeokuta Chamber | Adam Adebesin | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</body>
+
+</html>
