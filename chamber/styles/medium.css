@@ -12,12 +12,14 @@
                 width: 60px;
             }
             .logo-container img {
-                width: 70px;
+                width: 120px;
                 padding-left: 8px;
-            }
+            }          
+
             .logo-container h3 {
-                font-size: 15px;
+                font-size: 23px;
                 margin-top: 73px;
+               padding-left: 15px;
             }
             footer {
                 font-size: 30px;
@@ -238,6 +240,9 @@
   .contact-page h5 {
     font-size: 18px;
   }
+  .address img {
+    margin-bottom: 100px;
+}
   .contact-page p {
     margin-top: 33px;
     font-size: 26px;

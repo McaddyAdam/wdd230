@@ -63,12 +63,10 @@
     .contact {
         margin-left: 220px;
     }
-    .address img {
-        padding-top: 45px;
-        display: block;
-        width: 30%;
-        margin: 0 auto;
-    }
+   .address img{
+    margin-bottom: 120px;
+    width: 30%;
+   }
     .address p {
         margin-top: -25px;
         text-align: center;
@@ -349,10 +347,13 @@
   }
   .contact-address img {
     width: 100%;
+  
   }
 
+ 
   .contact-card {
-    border-radius: 15px;
+    border-radius: 15px
+;
   }
 
   .contact-grid {

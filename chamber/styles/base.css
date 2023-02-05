@@ -72,7 +72,12 @@ nav {
 }
 
 .logo-container img {
-    width: 150px;
+    width: 100px;
+}
+
+.logo-container h3 {
+    font-size: 13px;
+   padding-left: 10px;
 }
 
 nav ul {
@@ -425,10 +430,11 @@ footer {
 }
 
 .address img {
-    padding-top: 25px;
+    padding-top: 25px;  
     display: block;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .address p {
