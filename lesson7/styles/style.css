@@ -22,7 +22,7 @@ picture img[data-src] {
 
 picture img {
     filter: blur(0em);
-    transition: filter 0.9s;
+    transition: filter 0.6s;
     width: 500px;
     height: 400px;
     
