@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+h1 {
+  text-align: center;
+  color: darkblue;;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: aqua;
+}
+main {
+  max-width: 1700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1px;
+}
+
+img {
+  margin-top: 15px;
+  width: 100%;
+  box-shadow: 1px 1px 9px 2px rgb(0, 0, 0);
+  border: 5px solid white;;
+}
+
+.card {
+  padding: 10px 65px;
+  background-color: #02044e;
+  border-radius: 3px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 3%;
+}
+p {
+  font-size: 1.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
+  color: yellow;;
+
+}
+h2 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+    margin: 15px 0;
+    padding: 10px;
+  }
+
+
+  @media screen and (min-width:1020px) {
+
+    p {
+        font-size: 1rem;}
+
+    h2 {
+        font-size: 1.3rem;}
+
+    .card {
+        padding: 10px 45px;}
+            
+      
+}
