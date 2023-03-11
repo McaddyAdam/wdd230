@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dongle:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap");
+
+
 #content {
     margin: 0;
-    background-color: #a9d6e5;
+    background-color: #96d2f7;
 }
 
 
@@ -13,8 +15,8 @@ h3,
 h4,
 h5,
 tr .name {
-    font-family: "Bree Serif", serif;
-    color: #012a4a;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
 }
 
 p,
@@ -22,15 +24,15 @@ a,
 .text,
 td,
 address {
-    font-family: "Dongle", sans-serif;
-    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
 }
 
 header {
-    background-color: white;
+    background-color: rgb(196, 208, 23);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    padding: 0 5px;
+    padding: 0 8px;
     margin: 0;
     position: sticky;
     top: 0;
@@ -73,10 +75,12 @@ nav {
 
 .logo-container img {
     width: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 3px 2px #000;
 }
 
 .logo-container h3 {
-    font-size: 13px;
+    font-size: 7px;
    padding-left: 10px;
 }
 
@@ -88,7 +92,7 @@ nav.open ul {
     list-style-type: none;
     display: block;
     padding: 0;
-    background-color: white;
+    background-color: rgb(23, 2, 2);
     position: fixed;
     margin: 0;
     top: 148px;
@@ -108,7 +112,7 @@ header ul a {
 }
 
 header ul a:hover {
-    border-bottom: 4px solid #012a4a;
+    border-bottom: 4px solid #061622;
     color: #012a4a;
     padding: 10px 0px;
     text-align: center;
@@ -135,7 +139,7 @@ header ul a:active {
 }
 
 .date p {
-    background-color: #012a4a;
+    background-color: #000000;
     text-align: center;
     padding: 7px 5px;
     color: white;
@@ -143,8 +147,8 @@ header ul a:active {
 
 .date {
     grid-column: 1 / span 3;
-    margin-top: -20px;
-    margin-bottom: -10px;
+    margin-top: -10px;
+    margin-bottom: -20px;
 }
 
 .banner {
@@ -178,11 +182,10 @@ header ul a:active {
     font-size: 1.2rem;
     font-weight: bold;
 }
-
 .event {
     grid-row: 2;
     padding: 20px 5px;
-    background-color: #2c7da0;
+    background-color: #19107b;
 }
 
 .list2,
@@ -198,25 +201,24 @@ header ul a:active {
 }
 
 .event li {
-    margin-bottom: 3px;
-    font-family: "Dongle", sans-serif;
-    font-size: 23px;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
     list-style: none;
     line-height: 25px;
 }
 
 .event-date {
-    font-size: 20px;
-    color: #012a4a;
+    font-size: 14px;
+    color: #9dff00;
 }
 
 .weather {
     grid-row: 3;
-    padding: 0 5px;
-    background-color: white;
-    color: #2c7da0;
+    padding: 0 2px;
+    color: #ffffff;
     padding: 25px 15% 25px 15%;
-    background-color: #2c7da0;
+    background-color: #19107b;
 }
 
 .weather .icon {
@@ -226,26 +228,27 @@ header ul a:active {
 }
 
 .weather .icon img {
-    width: 50%;
-    margin: 0 50%;
+    width: 60%;
+    margin: 0 30%;
 }
 
 .weather .icon p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: left;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-top: 4px;
+    font-family:'Ubuntu', sans-serif;
 }
 
 #temp {
-    font-size: 2.5rem;
-    font-family: "Dongle";
+    font-size: 2.6rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .weather h5 {
     text-align: center;
     margin: 0;
     font-size: 1.2rem;
+    color: #9dff00;
 }
 
 .weather p {
@@ -255,64 +258,196 @@ header ul a:active {
 
 .weather :nth-child(3) {
     text-align: center;
-    color: black;
+    color: #9dff00;
+}
+
+.join1 {
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #19107b; 
+    color: #ffffff;
+}
+
+.join1 p {
+    font-size: .8em;
+    color: white;
+    text-align: center;
+}
+
+.join1 a { 
+    color: #9dff00;
+}
+
+.join1 a:hover {
+    color: #ffffff;
 }
 
 .join {
-    display: none;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #96d2f7; 
+    color: #ffffff;
 }
 
-.join img {
-    width: 100%;
+.join div h2 {
+    font-size: 1.5em;
 }
 
-.join p {
+.join div p {
+    font-size: 1.2em;
+}
+
+.join .about {
+    border: 2px solid #ffffff;
+    width: 80%;
+    margin: 15px auto;
+    background-color: #19107b;
+    box-shadow: 3px 4px 5px 3px #000;
+}
+
+.join .about h2 {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.join .about h3 {
+    color: #9dff00;
+}
+
+.register h4 {
+    background-color: #ffffff;
+    color: #19107b;
     margin-left: 20px;
-    color: #012a4a;
-    margin-bottom: 8px;
+    border: 3px dashed rgb(252, 19, 19);
+    border-radius: 15px;
+    width: fit-content;
+    padding: .2rem;
+    margin: auto;
 }
 
-.join a {
-    border: 1px solid;
-    color: #2c7da0;
-    background-color: aliceblue;
-    padding: 8px;
-    text-decoration: none;
-    margin-left: 130px;
+.join .about div {
+    border:  2px solid #ffffff;
+    margin: 12px auto;
+    box-shadow: 2px 3px 6px 3px #000;
+    width: 80%;
+    line-height: 1.2rem;
 }
 
-.join a:hover {
-    color: aliceblue;
-    background-color: #2c7da0
+.join .about div p {
+    font-size: .4rem;
+}
+
+.join .about div h3 {
+    font-size: 1.5rem;
+}
+
+.join .about div ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.join form {
+    border: 1px solid #ffffff;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #19107b;
+    box-shadow: 2px 3px 6px 3px #000;
+}
+
+
+.join form .entry {
+    margin: .9rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.join form .entry span {
+    color: #9dff00;
+}
+
+.join form .entry label {
+    margin-bottom: .1rem;
+}
+
+.join form .entry input[type="text"]:required,
+.join form .entry input[type="email"]:required {
+    border: #9dff00;
+    border-left: 4px solid #9dff00;
+    ;
+}
+
+.join form .entry input:required:valid {
+    border: black;
+    border-left: 4px solid black;
+}
+
+.join form .entry input:invalid {
+    border: 1px solid #000000;
+}
+
+.join form .entry input[type="text"],
+.join form .entry input[type="email"],
+.join form .entry input[type="tel"],
+ .join form .entry textarea {
+    flex-basis: 100%;
+    border-radius: 10px;
+    padding: .2rem .3rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.join form .entry input[type="text"]:focus,
+.join form .entry input[type="email"]:focus,
+.join form .entry input[type="tel"]:focus,
+.join form .entry textarea:focus {
+    outline: none;
+}
+
+.join form fieldset {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.join form fieldset .rad {
+    margin: .3rem 0;
+}
+
+.join form .entry .joBtn {
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: darkblue;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #009;
 }
 
 .hero {
     grid-row: 1;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .hero img {
     margin-bottom: -72px;
 }
 
-.chamber {
+.hero a {
+    border: 1px solid white;
+    padding: 8px 10px;
+    width: fit-content;
     text-decoration: none;
-    border: 1px solid;
-    border-color: aliceblue;
-    border-radius: 20px;
-    font-size: 23px;
-    color: #012a4a;
-    background-color: aliceblue;
-    padding: 10px;
-    margin-left: 150px;
-    margin-bottom: 70px;
-}
-
-.chamber:hover {
-    background-color: #012a4a;
-    color: aliceblue;
-    border-color: #012a4a;
-}
+    color: black;
+    background-color: #9dff00;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 600;
+}       
 
 #main .hero .hero-image img {
     width: 100%;
@@ -321,87 +456,25 @@ header ul a:active {
 .new {
     grid-row: 4;
     padding: 20px 5px;
-    background-color: #2c7da0;
+    background-color: #19107b;
 }
 
-.new h3,
 .event h3 {
-    padding-left: 15px;
+    text-align: center;
     margin-top: 5px;
 }
 
-.new li {
-    font-size: 15px;
-}
-
-.new a {
-    color: white;
-}
-
-.spot {
-    grid-row: 5;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    padding: 30px;
-    background-color: #2c7da0;
-}
-
-.spot div:nth-child(3) {
-    display: none;
-}
-
-.spotlight1,
-.spotlight2 {
+.new h3 {
     text-align: center;
-    box-shadow: -2px -4px 23px 1px #012a4a;
+    margin: 1px;
+    font-size: 1.3em;
+    color: #9dff00;
 }
 
-.underline {
-    display: flex;
-    border-bottom: 3px solid #012a4a;
-    margin: 0 25px;
-}
-
-.spotlight1 img,
-.spotlight2 img,
-.spotlight3 img {
-    width: 40%;
-    border-radius: 5px;
-}
-
-.spotlight1 h4,
-.spotlight2 h4,
-.spotlight3 h4 {
-    color: rgb(240, 240, 240);
-    margin: 17px 0;
-}
-
-.spotlight1 h5,
-.spotlight2 h5,
-.spotlight3 h5 {
-    color: #012a4a;
-    font-size: 25px;
-    margin: 15px 45px;
-    font-family: "Dongle", sans-serif;
-    line-height: 18px;
-}
-
-.spot-email {
-    color: #012a4a;
-    font-size: 28px;
-    margin: 5px 45px 0 45px;
-}
-
-.spot-number {
-    color: #012a4a;
-    font-size: 24px;
-    margin: 0 45px 18px 45px;
-}
-
-.spot-number a {
-    text-decoration: none;
-    color: rgb(10, 0, 155);
+.new p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0 30px;
 }
 
 
@@ -411,7 +484,7 @@ Main Footer
 
 footer {
     display: grid;
-    padding: 0 5px;
+    padding: 0 2px;
     grid-template-rows: 1fr;
     justify-items: center;
     background-color: white;
@@ -547,125 +620,6 @@ main {
     transform: scale(1);
 }
 
-
-/* ----------------Join Abeokuta Special Club -------------*/
-
-#form {
-    margin: 0 auto 40px auto;
-    max-width: 700px;
-    background-color: white;
-    padding: 10px 30px;
-    border-radius: 5px;
-    padding-bottom: 30px;
-    margin-left: 1px;
-}
-
-#form h3 {
-    font-size: 21px;
-}
-
-.blockview {
-    display: block;
-    padding-top: 25px;
-    color: #012a4a;
-    font-weight: 700;
-}
-
-#membership {
-    font-weight: 500;
-}
-
-.blockview input,
-textarea {
-    display: block;
-    margin-top: 7px;
-    color: #012a4a;
-    width: 92%;
-    padding: 10px 5px;
-}
-
-.blockview input:focus {
-    background-color: rgb(169, 214, 229);
-    border: 0px;
-}
-
-.blockview input:required {
-    border-right: 5px solid red;
-    border-left: 5px solid red;
-}
-
-.blockview input:required:valid {
-    border-right: 5px solid rgb(60, 190, 0);
-    border-left: 5px solid rgb(60, 190, 0);
-}
-
-.blockview textarea {
-    display: block;
-    margin-top: 5px;
-}
-
-#membership {
-    margin-top: 15px;
-    display: block;
-}
-
-.mtitle {
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.sbs {
-    display: block;
-    padding: 10px 0;
-    font-size: 18px;
-}
-
-input[name="membership"] {
-    margin-right: 10px;
-    accent-color: #012a4a;
-}
-
-#submitBtn {
-    margin-top: 10px;
-    padding: 10px 0;
-    width: 96%;
-    border: none;
-    font-size: 17px;
-    background-color: #012a4a;
-    border-radius: 4px;
-    color: white;
-}
-
-.benefit h5 {
-    margin: 5px 0;
-    font-size: 17px;
-}
-
-.benefit {
-    margin-top: 10px;
-    background-color: #a9d6e5;
-    padding: 5px;
-    display: none;
-    border-radius: 5px;
-    width: 93%;
-}
-
-.sbs:first-child {
-    margin-top: 15px;
-}
-
-td {
-    font-size: 18px;
-}
-
-.thanks {
-    margin: 40px auto 60px auto;
-    max-width: 700px;
-    background-color: white;
-    padding: 10px 30px;
-    border-radius: 5px;
-    padding-bottom: 30px;
-}
 
 /* -------------------------------------Abeokuta Business Directory Page-----------------------------------------------*/
 

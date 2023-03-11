@@ -125,25 +125,58 @@
         padding-top: 40px;
     }
     .join {
-        grid-column: 1/2;
-        grid-row: 3;
-        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px auto;
     }
-    .join p {
-        margin-left: 20px;
-        color: #012a4a;
-        margin-bottom: 40px;
+
+    .join .about {
+        width: 40%;
+    }
+
+    .join .about div:nth-child(5) {
+        margin-bottom: 30px;
+    }
+
+    .join .about div:nth-child(2) {
         margin-top: 30px;
     }
-    .join a {
-        border: 1px solid;
-        color: #2c7da0;
-        background-color: aliceblue;
-        padding: 10px;
-        text-decoration: none;
-        margin-left: 150px;
+
+    .join .about h2 {
+        margin-top: 40px;
+        font-size: 1.6rem;
+    }
+
+    .join .about h4 {
+        display: none;
+    }
+
+    .join form {
+        width: 40%;
+    }
+    
+    .join form .entry:nth-child(1) {
         margin-top: 40px;
     }
+
+    .join form .entry {
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .join form .entry label {
+        flex-basis: 12.5rem;
+        font-size: 1rem;
+    }
+
+    .join form fieldset {
+        width: 85%;
+    }
+
+    .join form .joBtn {
+        flex-basis: 100%;
+    }
+
     .hero {
         grid-column: 2/4;
         grid-row: 1/2;
