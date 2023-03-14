@@ -78,8 +78,8 @@ fetch(directoryURL)
 
 function gridView(business) {
     // change button color to currently active
-    let gridBtn = document.querySelector("#grid-view");
-    let listBtn = document.querySelector("#list-view");
+    let gridBtn = document.querySelector("#gridBtn");
+    let listBtn = document.querySelector("#listBtn");
 
     gridBtn.style.backgroundColor = "white";
     listBtn.style.backgroundColor = "#A9D6E5";
@@ -95,8 +95,8 @@ function gridView(business) {
 
 function listView(business) {
     // change button color to currently active
-    let gridBtn = document.querySelector("#grid-view");
-    let listBtn = document.querySelector("#list-view");
+    let gridBtn = document.querySelector("#gridBtn");
+    let listBtn = document.querySelector("#listBtn ");
 
     gridBtn.style.backgroundColor = "#A9D6E5";
     listBtn.style.backgroundColor = "white";
@@ -110,3 +110,4 @@ function listView(business) {
     items.className = "list";
     cardList.appendChild(items);
 }
+

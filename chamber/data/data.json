@@ -1,0 +1,138 @@
+{
+    "news": [{
+            "title": "FEDERAL MEDICAL CENTRE ABEOKUTA HOLDS 30TH COMMEMORATIVE SECOND LECTURE ON CERVICAL CANCER: A PREVENTABLE DEADLY DISEASE",
+            "link": "https://fmcabeokuta.net/events/"
+        },
+        {
+            "title": "Flooding: Did Oyo goverment officails divert wolrd bank loans to Ogun state?",
+            "link": "https://www.insideoyo.com/flooding-did-oyo-govt-officials-divert-world-bank-loans-to-ogun-state-bank-account/"
+        },
+        {
+            "title": "Youth protest alleged illegal arrest by EFCC in Ibadan",
+            "link": "https://www.vanguardngr.com/2022/10/youths-protest-alleged-illegal-arrest-by-efcc-in-ibadan/"
+        },
+        {
+            "title": "NCDMB trains 500 youths on mobile phones repair in Ibadan",
+            "link": "https://www.vanguardngr.com/2022/09/ncdmb-trains-500-youths-on-gsm-repairs-in-ibadan/"
+        },
+        {
+            "title": "Hoodlums attack APC rally in Ibadan, some supporters injured",
+            "link": "https://punchng.com/hoodlums-attack-apc-rally-in-ibadan-supporters-injured/"
+        },
+        {
+            "title": "Education remains the most potent weapon to change the world - Professor Babalola",
+            "link": "https://www.thisdaylive.com/index.php/2022/10/10/babalola-education-remains-most-potent-weapon-to-change-the-world/"
+        },
+        {
+            "title": "Why Nigeria needs a decisive president in 2023 - By Barrister Ayorinde",
+            "link": "https://guardian.ng/news/why-nigeria-needs-decisive-president-in-2023-by-ayorinde/"
+        },
+        {
+            "title": "NBS, World Bank partner to ensure accuracy of survey data in Nigeria",
+            "link": "https://www.sunnewsonline.com/nbs-world-bank-partner-to-ensure-accuracy-of-survey-data-in-nigeria/"
+        }
+    ],
+    "businesses": [{
+            "name": "Parkinn by Raddison",
+            "email": "info.abeokuta@parkinn.com",
+            "decscription": "Hotel, Resturant, Food, Entertainment, Sports, Travel, and Lifestyle",
+            "imageurl": "images/parkinn.png",
+            "street": "IBB Boulevard, Kuto, 110252",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 809 071 4325",
+            "website": "https://www.radissonhotels.com/en-us/hotels/park-inn-abeokuta/",
+            "membership": "Gold"
+        },
+        {
+            "name": "Federal Medical Center, Abeokuta",
+            "email": "contact@directory.org.ng",
+            "decscription": "Hospital",
+            "imageurl": "images/fmc.png",
+            "street": "Bisi Onabanjo Way, Idi-aba",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 705 679 0000-3",
+            "website": "https://fmcabeokuta.net/",
+            "membership": "Gold"   
+        },
+
+        {
+            "name": "101 Events Centre",
+            "email": "101events14@gmail.com",
+            "decscription": "101event is an event planning company whose services varies from planning to managing, coordination and ushering of all kinds of social events ranging from weddings to burial and the likes",
+            "imageurl": "images/101event.png",
+            "street": "New Obada market, Obada oko,",
+            "city": " Abeokuta, Ogun state, Nigeria",
+            "number": "+234 706 886 2422",
+            "website": "https://www.finelib.com/listing/101events/73507/",
+            "membership": "silver"
+        },
+
+        {
+            "name": "Dangote Cement",
+            "email": "customercare@dangote.com",
+            "decscription": "Business management consultant in Abeokuta",
+            "imageurl": "images/dangote.png",
+            "street": "Dangote Cement Plant, Ibese",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 1 460 643",
+            "website": "https://www.dangotecement.com/nigeria-operations/",
+            "membership": "Gold"
+        },
+        {
+            "name": "OOPL Cinema",
+            "email": "ooplcinemas@gmail.com",
+            "decscription": "Movie Cinema",
+            "imageurl": "images/ooplcinema.png",
+            "street": "OOPL, Oke-mosan",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 818 110 0998",
+            "website": "https://www.ooplcinemas.com/nowshowing/",
+            "membership": "silver"
+        },
+        {
+            "name": "IBEDC Office",
+            "email": "info@ibedc.com",
+            "decscription": "Electricity Services",
+            "imageurl": "images/ibedc.png",
+            "street": "Ijeun-lukosi, Leme",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 700 123 9999",
+            "website": "https://www.ibedc.com/offices/",
+            "membership": "silver" 
+        },
+        {
+          
+            "name": "Fatgbems Petroleum",
+            "email": "info@mauvelounge.com.ng",
+            "decscription": "Restuarant and Lounge",
+            "imageurl": "images/fatgbems.png",
+            "street": "5B, Folusho Alade Str., Awuse Est.,",
+            "city": "Opebi, Lagos State, Nigeria",
+            "number": "+234 909 865 7358",
+            "website": "https://www.fatgbemspetroleum.com/",
+            "membership": "Gold"   
+        },
+        {
+            "name": "Abeokuta Adire Fabrics",
+            "email": "tour@travelwaka.com",
+            "decscription": "African Wears and Attire",
+            "imageurl": "images/adire.png",
+            "street": "Adire Market, Itoku",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 812 266 1511",
+            "website": "https://www.travelwaka.com/adire-market/",
+            "membership": "silver" 
+        },
+        {
+            "name": "3C Hub",
+            "email": "service.ng@3chub.com",
+            "decscription": "Business networking, Marketting, Phone and Computer Accessories",
+            "imageurl": "images/3chub.png",
+            "street": "No.25 lalubu road oke ilewo",
+            "city": "Abeokuta, Ogun state, Nigeria",
+            "number": "+234 909 649 6690",
+            "website": "www.3chub.com",
+            "membership": "Bronze"
+        }
+    ]
+}
