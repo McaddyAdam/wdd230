@@ -3,17 +3,12 @@
 /* Add CSS rules for larger views here */
 @media (min-width: 640px) {
 
-nav ul {
-  display: flex;
-}
+  .section {
+    display: flex;
+  }
 
-nav ul li {
-  flex: 1 1 100%;
-}
-
-.learning {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-}
+  section {
+    flex: 1;
+  }
 
 }
