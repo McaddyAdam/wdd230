@@ -146,6 +146,14 @@ nav li.active a:hover {
 
 
 /* Main content styles */
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
 
 main {
 	max-width: 720px;
