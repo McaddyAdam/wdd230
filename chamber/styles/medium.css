@@ -1,0 +1,78 @@
+@media only screen and (min-width: 545px) {
+    #content {
+        margin: 0;
+    }
+    header {
+        grid-template-columns: 55% auto 120px;
+    }
+    nav.open ul {
+        top: 125px;
+    }
+    .socials img {
+        width: 60px;
+    }
+    .logo-container img {
+        width: 120px;
+        padding-left: 8px;
+    }          
+
+    .logo-container h3 {
+        font-size: 23px;
+        margin-top: 73px;
+       padding-left: 15px;
+    }
+    footer {
+        font-size: 30px;
+    }
+    .contact img {
+        width: 100px;
+        margin-left: 12px;
+    }
+    .address img {
+        padding-top: 45px;
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .address p {
+        margin-top: -35px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .address h3 {
+        margin-top: -75px;
+        text-align: center;
+    }
+    .credit p {
+        font-size: 35px;
+    }
+
+    footer {
+        text-align: center;
+      }
+    
+    .address a {
+        padding-top: 50px;  
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: -8em;
+    }
+    
+    .address h3 {
+        font-size: 25px;
+    }
+    
+    .address h4 {
+        margin-top: -20px;
+        text-align: center;
+        font-size: .5em;
+    }
+    
+    p {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}

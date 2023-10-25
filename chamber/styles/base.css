@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap");
+
+
+#content {
+    background-color: #83c9f5;
+}
+
+
+/*Header*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+tr .name {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+}
+
+a,
+.text,
+td,
+address {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: rgb(196, 208, 23);
+    display: grid;
+}
+
+.logo-container h3 {
+    font-style: italic;
+}
+
+header ul a {
+    border-bottom: 4px solid white;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 0;
+}
+
+header ul a:hover {
+    border-bottom: 4px solid #000000;
+    color: #ffffff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.socials img {
+    width: 45px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+/* Main Section */
+
+#main {
+    margin: 10px auto;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 5px;
+    background-color: transparent;
+    padding: 10px;
+    max-width: 1080px; 
+}
+
+#main>div {
+    color: white;
+    font-weight: bold;
+}
+.event {
+    padding: 20px 5px;
+    background-color: #19107b;
+}
+
+.event h3 {
+    color: #9dff00;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.weather {
+    padding: 25px 15% 25px 15%;
+    background-color: #19107b;
+}
+
+.weather .icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+}
+
+.weather .icon img {
+    width: 60%;
+    margin: 0 30%;
+}
+
+.weather .icon p {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 4px;
+    font-family:'Ubuntu', sans-serif;
+}
+
+#temp {
+    font-size: 2.6rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.weather h5 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #9dff00;
+}
+
+.weather p {
+    text-align: center;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.weather :nth-child(3) {
+    text-align: center;
+    color: #9dff00;
+}
+
+.join1 {
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #19107b; 
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.join1 p {
+    font-size: .8em;
+    color: white;
+    text-align: center;
+}
+
+.join1 a { 
+    color: #9dff00;
+}
+
+.join1 a:hover {
+    color: #ffffff;
+}
+
+#main .hero .hero-image img {
+    width: 100%;
+}
+
+.new {
+    background-color: #19107b;
+}
+
+.new h3 {
+    text-align: center;
+    margin: -1.5em;
+    font-size: 1.3em;
+    color: #9dff00;
+}
+
+.spot {
+    grid-column: 1/4;
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr;
+    background-color: #19107b;
+}
+
+.spot h3 {
+    color: #9dff00;
+    text-align: center;
+}
+
+
+/* ...............Discover Page............... */
+
+.top h2 {
+    margin-top: 0;
+    color: #19107b;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.top h4 {
+    margin: 0 auto;
+    color: #000000;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.top h5 {
+    color: #19107b;
+    text-align: center;
+}
+
+#gallery {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 15px 30px 15px;
+    grid-gap: 1px;
+}
+
+#gallery img {
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    transition: transform 0.2s;
+}
+
+#gallery img[data-src] {
+    width: 100%;
+    filter: blur(0.2em);
+}
+
+#gallery div.blue {
+    background-color: #012a4a;
+}
+
+#gallery div.light-blue {
+    background-color: #2c7da0;
+    padding: 35px 30px 40px 30px;
+}
+
+#gallery p {
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.blue h4,
+.light-blue h4 {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+#gallery img:hover {
+    transform: scale(1);
+}
+
+
+/************************Main Footer ***********************/
+footer {
+    text-align: center;
+  }
+
+.address a {
+    padding-top: 50px;  
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: -8em;
+}
+
+.address h3 {
+    font-size: 25px;
+}
+
+.address h4 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: .5em;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/********************Join*****************/
+
+.join {
+    margin: 10px auto;
+    padding: 2px;
+    color: #ffffff;
+    display: grid;
+}
+
+.join div h2 {
+    font-size: 1.5em;
+}
+
+.join div p {
+    font-size: 1.2em;
+}
+
+.join .about {
+    border: 2px solid #ffffff;
+    width: 80%;
+    margin: 15px auto;
+    background-color: #19107b;
+    box-shadow: 3px 4px 5px 3px #000;
+}
+
+.join .about h2 {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.join .about h3 {
+    color: #9dff00;
+}
+
+.register h4 {
+    background-color: #ffffff;
+    color: #19107b;
+    margin-left: 20px;
+    border: 3px dashed rgb(252, 19, 19);
+    border-radius: 15px;
+    width: fit-content;
+    padding: .2rem;
+    margin: auto;
+}
+
+.join .about div {
+    border:  2px solid #ffffff;
+    margin: 12px auto;
+    box-shadow: 2px 3px 6px 3px #000;
+    width: 80%;
+    line-height: 1.2rem;
+}
+
+.join .about div p {
+    font-size: .4rem;
+}
+
+.join .about div h3 {
+    font-size: 1.5rem;
+}
+
+.join .about div ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.join form {
+    border: 1px solid #ffffff;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #19107b;
+    box-shadow: 2px 3px 6px 3px #000;
+}
+
+
+.join form .entry {
+    margin: .9rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.join form .entry span {
+    color: #9dff00;
+}
+
+.join form .entry label {
+    margin-bottom: .1rem;
+}
+
+.join form .entry input[type="text"]:required,
+.join form .entry input[type="email"]:required {
+    border: #9dff00;
+    border-left: 4px solid #9dff00;
+    ;
+}
+
+.join form .entry input:required:valid {
+    border: black;
+    border-left: 4px solid black;
+}
+
+.join form .entry input:invalid {
+    border: 1px solid #000000;
+}
+
+.join form .entry input[type="text"],
+.join form .entry input[type="email"],
+.join form .entry input[type="tel"],
+ .join form .entry textarea {
+    flex-basis: 100%;
+    border-radius: 10px;
+    padding: .2rem .3rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.join form .entry input[type="text"]:focus,
+.join form .entry input[type="email"]:focus,
+.join form .entry input[type="tel"]:focus,
+.join form .entry textarea:focus {
+    outline: none;
+}
+
+.join form fieldset {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.join form fieldset .rad {
+    margin: .3rem 0;
+}
+
+.join form .entry .joBtn {
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: darkblue;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #009;
+}

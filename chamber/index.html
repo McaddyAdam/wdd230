@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Abeokuta Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Adam Adebesin course assignment portal">
+    <meta name="author" content="Adam Adebesin">
+    <meta property="og:title" content="Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+  
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body id="content"> 
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/toyosi.adam.7/"><img src="images/facebook.png" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com/in/adamadebesin/"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+        </div>
+        
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong>
+                </li>
+                <li>
+                    <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="main">
+        <div class="event">
+            <h3>Current Events</h3>
+        </div>
+
+        <div class="weather">
+            <h5>Weather</h5>
+            <div class="icon">
+                <img id="icon" src="images/weather.webp" alt="weather icon" loading="lazy" />
+                <p><span id="temp"></span>°C</p>
+            </div>
+            <p id="icon-desc"></p>
+            <hr class="temo-div" />
+            <p>Wind Speed: <span id="speed"></span>km/h</p>
+            <p id="chill-output"></p>
+        </div>
+
+        <div class="join1">
+            <p> Discover how to join the Abeokuta Chamber of Commerce and how it will benefit your organization!</p>
+            <a href="#"> Join Us!</a>
+        </div>
+
+        <div class="hero">
+            <picture class="hero-image">
+                <img src="images/abk.png" alt="olumo" />
+            </picture>
+        </div>
+
+        <div class="new">
+            <h3 class="news-release">News Release</h3>
+        </div>
+
+        <div class="spot">
+            <h3>Spotlights</h3>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo" /></a>
+            
+                <h3>Chamber of Commerce</h3>
+                <h4>
+                    Ikija, Abeokuta North, Abeokuta Ogun State, Nigeria
+                </h4>
+                <h4>
+                    +234-913-069-4355
+                </h4>
+            </div>
+            
+            <hr>
+
+            <p>&#169; <span id="copyrightYear"></span> Adam Adebesin .:|:.  Ogun State, Nigeria</p>
+                <p id="lastModified">
+            </p>
+            
+        </div>
+
+    </footer>
+ 
+</body>
+
+</html>

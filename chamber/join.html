@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Abeokuta Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Adam Adebesin course assignment portal">
+    <meta name="author" content="Adam Adebesin">
+    <meta property="og:title" content="Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+  
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body id="content"> 
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/toyosi.adam.7/"><img src="images/facebook.png" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com/in/adamadebesin/"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+        </div>
+        
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong>
+                </li>
+                <li>
+                    <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="join">
+        <div class="top">
+            <h2>Join Abeokuta Sport Club</h2>
+            <p>
+            That Abeokuta Sports Club was founded in 1904 was not in doubt because the research into the archives showed that the Gold Coast (now Ghana) visited the Club in 1913. It is also on record that the Club started as a meeting point for relaxation for members of the West African Command Headquarters.
+            The place was also used to interact with the elites in the town. Living in Abeokuta is much more fun and interesting when you join our club. Signup today for Abeokuta Sport Club and gain access to amazing city services available for premium members
+            </p>
+        </div>
+        <div class="about">
+            <h2>Membership Tiers and Benefits</h2>
+            <div class="box">
+                <ul>
+                    <h3>Non Profit (NP) Membership</h3>
+                    <li>For nonprofit organizations only</li>
+                    <li>No fees</li>
+                    <li>Spotlight box advertising</li>
+                </ul>
+            </div>
+            <div class="box">
+            <ul>
+                <h3>Bronze Membership</h3>
+                <li>$50/month fee</li>
+                <li>Spotlight box advertising</li>
+                <li>10% discounted event space</li>
+            </ul>
+            </div>
+            <div class="box">
+                <ul>
+                    <h3>Silver Membership</h3>
+                    <li>$100/month fee</li>
+                    <li>Spotlight box advertising</li>
+                    <li>15% discounted event space</li>
+                    <li>Once a month complementary training course</li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul>
+                    <h3>Gold Membership</h3>
+                    <li>$150/month fee</li>
+                    <li>Spotlight box advertising</li>
+                    <li>15% discounted event space</li>
+                    <li>Once a month complementary training course</li>
+                    <li>Discover page advertising</li>
+                    <li>Front page event advertising</li>
+                </ul>
+            </div>
+        </div>
+        <div class="register">
+            <h4>REGISTER BELOW ⬇️</h4>  
+        </div>
+        <form class="join-page" method="get" action="thankyou.html">
+                <div class="entry">
+                <label for="fname">First Name<span>*</span>: </label>
+                <input type="text" required name="fname">
+                </div>
+            <div class="entry">
+                <label for="lname">Last Name<span>*</span>:</label>
+                <input type="text" required name="lname">
+            </div>
+            <div class="entry">
+                <label for="bpos">Position:</label>
+                <input class="bpos" type="text" name="bpos" pattern="[A-Za-z]+?-+?+  " title="Only accepts alpha
+                characters, hyphens, and spaces with a minimum of seven characters" minlength="7">
+            </div>
+            <div class="entry">
+                <label for="mail">Email<span>*</span>:</label>
+                <input type="email" placeholder="youremail@address.com" required name="mail">
+            </div>
+            <div class="entry">
+                <label for="phone">Phone Number<span>*</span>:</label>
+                <input type="tel" required name="phone">
+            </div>
+            <div class="entry">
+                <label for="bname">Business Name<span>*</span>:</label>
+                <input type="text" required name="bname">
+            </div>
+            <div class="membershipEntry">
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div class="rad">
+                        <label><input type="radio" name="membership" value="np"> NP Membership</label><br>
+                    </div>
+                    <div class="rad">
+                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label><br>
+                    </div>
+                    <div class="rad">
+                    <label><input type="radio" name="membership" value="silver"> Silver Membership</label><br>
+                    </div>
+                    <div class="rad">
+                    <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="entry">
+                <label for="bdes">Business Description</label>
+                <textarea name="bdes" placeholder="Briefly describe your business..." cols="30" rows="10"></textarea>
+            </div>
+            <div class="entry">
+                <input type="hidden" name="datetime" value="datetime">
+            </div>
+            <div class="entry">
+                <input class="joBtn" type="submit" value="Join Chamber">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo" /></a>
+            
+                <h3>Chamber of Commerce</h3>
+                <h4>
+                    Ikija, Abeokuta North, Abeokuta Ogun State, Nigeria
+                </h4>
+                <h4>
+                    +234-913-069-4355
+                </h4>
+            </div>
+            
+            <hr>
+
+            <p>&#169; <span id="copyrightYear"></span> Adam Adebesin .:|:.  Ogun State, Nigeria</p>
+                <p id="lastModified">
+            </p>
+            
+        </div>
+
+    </footer>
+ 
+</body>
+
+</html>

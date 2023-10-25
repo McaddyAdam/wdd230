@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adam Adebesin - WDD 230 - Web Frontend Development</title>
+  <meta name="description" content="WDD 230 - Web Frontend Development - Adam Adebesin course assignment portal">
+  <meta name="author" content="Adam Adebesin">
+  <meta property="og:title" content="WDD230">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="C:\Users\HP\OneDrive\Documents\MICROSOFT OFFICE-PDF\MY BYU\BYU DEGREE\WDD_230 Web Frontend Development I\wdd230\images\adam.jpg">
+  <meta property="og:url" content="https://mcaddyadam.github.io/wdd230/index">
+
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/larger.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" >
+</head>
+
+<body>
+  <header>
+    <img src="images/adam.jpg" alt="image" >
+    <h1>Adam T. Adebesin</h1>
+  </header>
+  
+  <a id="menu" href="#"></a>
+  <nav>
+    <ul class="navigation">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Site Plan</a></li>
+      <li><a href="#">Form</a></li>
+      <li><a href="#" title="About" class="active">About Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <picture>
+        <source media="(max-width: 400px)" srcset="images/temple.webp">
+        <source media="(max-width: 960px)" srcset="images/temple.webp">
+        <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/1280x800/aba-nigeria-temple-lds-273999-wallpaper.jpg" alt="aba-nigeria-temple">
+      </picture>
+      <div class="herolabel">
+        <p>Aba Nigeria Temple</p>
+      </div>
+    </div>
+    <h2>WDD 230: Web Frontend Development</h2>
+    
+    <div class="section">
+      <section>
+        <h3 class="card">Learning Activities</h3>
+        <ul>
+          <li><a href="#">Week 01: </a></li>
+          <li><a href="https://codepen.io/McaddyAdam/pen/zYyRqqY?editors=1100">Week 02: | codepen | DOM Manipulation</a></li> 
+          <li><a href="#">Week 03: </a></li>
+          <li><a href="#">Week 04: </a></li>
+          <li><a href="#">Week 05: </a></li>
+          <li><a href="#">Week 06: </a></li>
+        </ul>
+      </section>
+  
+      <section>
+        <h3 class="card">Information</h3>
+        <div class="information-card">
+          
+          <div id="weather-info">
+              <p>Loading...</p>
+          </div>
+          <script src="script/weather.js"></script>
+
+          <p>Page visits: <span id="visit-counter">0</span></p>
+        </div
+      </section>
+    </div>
+
+  </main>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126855.66103033844!2d3.391488!3d6.4913408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1696121088249!5m2!1sen!2sng" width="685" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <footer>
+    <p>&#169; <span id="copyrightYear"></span> Adam Adebesin .:|:.  Ogun State, Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+  
+  <script src="scripts/visitcount.js"></script>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/lazyload.js"></script>
+</body>
+</html>
