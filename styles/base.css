@@ -21,7 +21,7 @@ header {
   justify-content: center;
   padding: 40px;
   margin-bottom: -2px;
-  border: 1px solid rgba (0, 0, 0, 0.1);
+  border: 1px solid black;
 }
 
 header img {
@@ -60,7 +60,7 @@ li a {
 
 nav a {
   display: block;
-  color: fff;
+  color: white;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
@@ -211,7 +211,7 @@ h2 {
   border: 1px solid black;
   padding: 10px;
   margin-bottom: 20px;
-  font-size: 15;
+  font-size: 15px;
 }
 
 section {
