@@ -98,13 +98,13 @@ header ul a:hover {
 .event li {
     margin-bottom: 3px;
     font-family: "Dongle", sans-serif;
-    font-size: 23px;
+    font-size: 15px;
     list-style: none;
     line-height: 25px;
 }
 
 .event-date {
-    font-size: 20px;
+    font-size: 15px;
     color: #012a4a;
 }
 
@@ -226,6 +226,12 @@ header ul a:hover {
 .event h3 {
     padding-left: 15px;
     margin-top: 5px;
+    text-align: center;
+    border-bottom: solid black;
+}
+
+.new p{
+    
 }
 
 .new li {
