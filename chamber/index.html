@@ -11,6 +11,7 @@
     <meta property="og:image" content="">
     <meta property="og:url" content="">
   
+    <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
@@ -52,40 +53,77 @@
 
     <main id="main">
         <div class="event">
-            <h3>Current Events</h3>
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li class="list1">
+                    <span class="event-date"> 30th November </span><br /> Masterpiece Walk Season 2
+                </li>
+                <li class="list2">
+                    <span class="event-date"> 11th December </span><br /> NBA ABEOKUTA BRANCH BAR Week
+                </li>
+                <li class="list3">
+                    <span class="event-date"> 14th December </span><br /> Business Bootcamp & Networking
+                </li>
+                <li class="list4">
+                    <span class="event-date"> 18th December </span><br /> Aerodynamics Workshop
+                </li>
+                <li class="list5">
+                    <span class="event-date"> 20th December </span><br /> Chamber Annual General Audit
+                </li>
+                <li class="list6">
+                    <span class="event-date"> 22th December </span><br /> Chamber Annual General Conference
+                </li>
+                <li class="list7">
+                    <span class="event-date"> 26th December </span><br /> Chamber Christmas Jamboree
+                </li>
+                <li class="list8">
+                    <span class="event-date"> 1th December </span><br /> New Year Thanksgiving
+                </li>
+                <li class="list9">
+                    <span class="event-date"> 11th January </span><br /> Abeokuta Market Women Summit
+                </li>
+                <li class="list10">
+                    <span class="event-date"> 18th January </span><br /> University of Abeokuta Annual Convocation
+                </li>
+                <li class="list11">
+                    <span class="event-date"> 22nd January </span><br /> Abeokuta Media Networking Event
+                </li>
+                <li class="list12">
+                    <span class="event-date"> 10th February </span><br /> Youth Rally and Political Awareness
+                </li>
+                <li class="list13">
+                    <span class="event-date"> 21st February </span><br /> Gubernatorial Elections
+                </li>
+            </ul>
         </div>
-
         <div class="weather">
             <h5>Weather</h5>
             <div class="icon">
-                <img id="icon" src="images/weather.webp" alt="weather icon" loading="lazy">
+                <img id="icon" src="images/weather.webp" alt="weather icon" loading="lazy" />
                 <p><span id="temp"></span>°C</p>
             </div>
             <p id="icon-desc"></p>
-            <hr class="temo-div">
+            <hr class="temo-div" />
             <p>Wind Speed: <span id="speed"></span>km/h</p>
             <p id="chill-output"></p>
         </div>
-
-        <div class="join1">
+        <div class="join">
             <p> Discover how to join the Abeokuta Chamber of Commerce and how it will benefit your organization!</p>
-            <a href="#"> Join Us!</a>
+            <a href="join.html"> Join Us!</a>
         </div>
-
         <div class="hero">
             <picture class="hero-image">
-                <img src="images/abk.png" alt="olumo">
+                <source media="(max-width: 500px)" srcset="images/abeokuta.webp" />
+                <source media="(max-width: 1079px)" srcset="images/abeokuta.webp" />
+                <img src="images/abeokuta.webp" alt="Abeokuta" />
             </picture>
+            <a class="chamber" href="join.html"> Join The Chamber</a>
         </div>
-
         <div class="new">
             <h3 class="news-release">News Release</h3>
         </div>
 
-        <div class="spot">
-            <h3>Spotlights</h3>
-        </div>
-
+        <div class="spot"></div>
     </main>
 
     <footer>

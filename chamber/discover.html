@@ -2,163 +2,157 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abeokuta Chamber of Commerce Directory Page"
-    <title>Abeokuta Chamber of Commerce</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title> Abeokuta Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Adam Adebesin course assignment portal">
+    <meta name="author" content="Adam Adebesin">
+    <meta property="og:title" content="Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+  
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
 </head>
 
-<body>
-
-    <div class="container">
-
+<body id="content"> 
     <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/logo.webp" alt="Logo">
-                <h1><span class="head1">Ejule Onu</span> <br>Chambers</h1>
-            </a>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo"></a>
+            <h3>Chamber of Commerce</h3>
         </div>
-
-        <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-                <ul id="pryNav">
-                    <li class="active"><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </nav>
-
-        <div class="social">
-            <div><a href="https://www.facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="Facebook Icon" class="soc-img1">
-            </a></div>
-            <div><a href="https://www.twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="Twitter Icon" class="soc-img2">
-            </a></div>
-        </div>
-            
-        <div class="date">
-            <p><span id="header-date"></span></p>
+        <div class="socials">
+            <a href="https://www.facebook.com/toyosi.adam.7/"><img src="images/facebook.png" alt="Facebook image"></a>
+            <a href="https://www.linkedin.com/in/adamadebesin/"><img src="images/linkedin.png" alt="LinkedIn image"></a>
         </div>
         
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong>
+                </li>
+                <li>
+                    <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
+
     </header>
+    <main id="discovermain">
+        <div class="top">
+            <h2>Discover Abeokuta</h2>
+            <h4>
+                Olumo rock is one of the most popular tourist attractions in Nigeria.
+It is located in the heart of Abeokuta, Ogun State. Nigeria. The name Olumo can be loosely translated as "under the Rock". It has become one of the top tourist attractions in Abeokuta. This historical rock has attracted tourists from all works of life. This gigantic mountain could be seen from different corners of Abeokuta city.
+Abeokuta is the capital of Ogun State. It is an ancient city located in the South West of Nigeria within one hour drive from Lagos.
+            </h4>
 
-
-    <main class="discover">
-
-        <div  class="water">
-                <div><img class="up" src="images/placeholder.jpg" data-src="images/House1.jpg" alt="House" loading="lazy"></div>
-                <H2>Water</H2>    
-                <p>Water transportation is still vital to commerce. Early canals connecting freshwater bodies of water 
-                    enabled agricultural activities. All of this comes down to one simple fact: water is vital yet relatively
-                    inexpensive so many of us take it for granted. That one glass of water gives you life. That plumbing in 
-                    your house keeps you healthy. That reservoir in your community makes everything in your life possible.
-                    ccess to water sources has a vital role in city development. One of the major advantages of being with us
-                    is nearness water . Nearness to water sources to the city is an inexpensive cost to improve infrastructure.</p>
+            <h5>Days Since Last Visits: <span class="visits"></span></h5>
         </div>
-        <div class="cred">
-            <div><img class="sec-up" src="images/placeholder.jpg" data-src="images/House2.jpg" alt="House" loading="lazy"></div>
-            <h2>Credibility and Exposure</h2>
-            <p>
-                Being a Member of our chamber gives you credibility.
 
-                Ejule Onu Chamber has a reputation for standing up for the local community and its economy. When your business is 
-                associated with our name, it gives the perception that you stand for these things, too.
-                As a result, consumers trust you more. This leads to more positive impressions of your business. Those seeking 
-                products or services related to your own will lean more toward your brand when faced with various options.
-                Being a member of our chamber also provides exposure.
-                Gaining exposure is hard, especially if you're a new business. You have to find ways to permeate your brand into 
-                the community so consumers know who you are and what you offer.
+        <section id="gallery">
+            <img class="overlay" src="images/placeholder.png" data-src="images/oopl.jpg" alt="oopl" />
 
-                With Ejule Onu Chamber membership, you gain resources that make this much easier. If you browse out, you'll note 
-                they all house a digital directory.
+            <div class="blue">
+                <h4>OOPL</h4>
+                <p>
+                    The Olusegun Obasanjo Presidential Library is a library owned by Chief Olusegun Obasanjo, a former President of Nigeria. It is a historic, tourist and academic centre established as a national archive for the preservation of documents and materials used by the president during his tenure as the president of Nigeria. The library is located at Oke Mosan Abeokuta, Ogun State in Nigeria.
+                </p>
+            </div>
 
-                Members are featured on these directories, which are used frequently by individuals and businesses within the area. 
-                New members are also often given various forms of exposure when they sign on for the first time.
-            </p>
-            
-        </div>
-        <div class="prom">
-            <div><img class="center" src="images/placeholder.jpg" data-src="images/House3.jpg" alt="House" loading="lazy"></div>
-                <h2>Our Promotional Tools</h2>
-                    <p>
-                        There are numerous opportunities to engage the community.
+            <img src="images/placeholder.png" data-src="images/olumo.png" alt="Olumo Rock" />
+            <div class="light-blue">
+                <h4> Olumo Rock </h4>
+                <p>
+                    The Olumo Rock is an ancient rock located in Abeokuta which serves as a fortress to the Egba residents during the inter-tribal war around
+                    1800. Te rock was discovered by a hunter named Adagba in the
+                    19th Century. The rock was beneficial in helping the Egba's win the inter-tribal war. It serves as a strategic hideout, a fortress and a vantage point for Egba Warriors. It is not just a tourist attraction, it is a sacred ground, a symbol of freedom, victory, strength and peace.
+                </p>
+            </div>
 
-                        Our chamber actively arranges and execute events, many of which are covered by the press. By becoming an active member who attends, 
-                        sponsors, or hosts these events, you can get your moment in the spotlight as well.
+            <img src="images/placeholder.png" data-src="images/kuti.jpg" alt="Kuti Museum" />
+            <div class="blue">
+                <h4>Kuti Heritage Museum</h4>
+                <p>
+                    The Kuti Heritage Museum is a newly renovated building which now serves as a tourist attraction in Abeokuta. The Museum, now a top sight in the city of Abeokuta, used to be the home to the parents of the Legendary Fela Anikulapo-Kuti, Mr. Israel Oludotun Ransome-Kuti and Mrs. Funmilayo Ransome-Kuti. The Museum now has an aesthetic landscape, a proper management and creative setups aimed at promoting tourism, culture & the African heritage, and to preserve the monuments of the Kuti's inspiring culture. Kuti Heritage Museum is definitely your pick on your next trip or vacation.
+                </p>
+            </div>
 
-                        They are great opportunities for positive exposure. Engage your community and make a difference while promoting your business at the 
-                        same time. It's a win-win advantage.
-                        You have affordable access to promotional tools
+            <img src="images/placeholder.png" data-src="images/arakanga.jpg" alt="Arakanga" />
+            <div class="light-blue">
+                <h4> Arakanga Forest</h4>
+                <p>
+                    Arakanga Forest Preserve is a forest in Ogun State. Arakanga Forest Preserve is situated nearby to the villages Bode-Olude and Sokenu.
+                </p>
+            </div>
 
-                        Our chamber offers promotion and publicity packages to help you grow your business. This may include ribbon cuttings, sponsorships, or advertising.
+            <img src="images/placeholder.png" data-src="images/wildlife.png" alt="OOPL Wildlife" />
+            <div class="blue">
+                <h4>OOPL Wildlife Park</h4>
+                <p>
+                    The OOPL Wildlife Park is the part of the presidential library which houses over one hundred and forty indigenous and exotic animals. It was set up to encourage wildlife conservation, educate the general public, promote tourism and also support research.
+                    <br>
+                    Highlights of our Zoo's collection are lions, spotted and striped hyenas, a Marabou Stork, pythons and a striking aviary that houses several species of fowl.
+                </p>
+            </div>
 
-                        Members are offered these packages at a price that is often much lower than what it would typically cost to execute. It's a perk for being part 
-                        of the chamber's organization.
-                        There are many ways to save while you grow too.
+            <img src="images/placeholder.png" data-src="images/funaab.jpg" alt="funaab" />
+            <div class="light-blue">
+                <h4>FUNAAB</h4>
+                <p>
+                    The Federal University of Agriculture, Abeokuta is one of the higher institutions of learning owned and run by the Federal government of Nigeria.
+                    <br>
+                    The university has 179 academic programmes made up of 44 undergraduate programmes, 135 graduate programmes which include 22 Postgraduate diploma programmes, 57 Master's degree programmes and 56 Doctorate degree programmes.
+                </p>
+            </div>
 
-                        Ejule Onu Chamber finds ways to help our members get ahead. This may include member-to-member deals. These are special discounts or offerings 
-                        provided to members by members as a way of supporting each other.
+            <img src="images/placeholder.png" data-src="images/alake.png" alt="Alake" />
+            <div class="blue">
+                <h4>Alake Palace</h4>
+                <p>
+                    The Alake of Egbaland is the paramount Yoruba king of the Egba, a clan in Abeokuta, Ogun State, southwestern Nigeria. Egba consists of Egba Ake, Owu kingdom, Oke-Ona and Egba Gbagura.
+                </p>
+            </div>
 
-                        Other discounts may include reduced rental fees for conference room space, discounted event tickets, or affordable promotional tools like the 
-                        ones mentioned above.
-                    </p>
-        </div>
-        <div class="nice">
-            <div><img class="sec-down" src="images/placeholder.jpg" data-src="images/House4.jpg" alt="House" loading="lazy"></div>
-            <h2>Nice Climate</h2>
-            <p>The warm climate also makes it very easy for palm trees, aloes, olive, orange and lemon trees to grow. 
-                And of course an abundance of flowering trees, shrubs and bushes like the mimosa, jasmine, roses and 
-                carnations. The main place for orange and lemon trees is between Cannes, Antibes, Monaco and Menton. 
-                The latter in particular being very well known for their citrus production. Many of the cut flowers 
-                that you will find in the flower markets are grown around the Frejus and Antibes areas, however carnations 
-                and roses are mainly grown in Nice and Grasse areas, well known for their 'parfumerie's'.</p>
-            
-        </div>
-        <div class="fish">
-            <div><img class="down" src="images/placeholder.jpg" data-src="images/House5.jpg" alt="House" loading="lazy"></div>
-            <h2>Fishing Possibilities</h2>
-            <p>
-                We provide fishing possibilities which creates opportunities of spending time with your family which in turn promotes 
-                feelings of security and well-being, making fishing a worthwhile activity to learn.
-
-                Vitamin D helps your body regulate the absorption of calcium and phosphorus, two minerals that improve immune system 
-                function and help defend against disease. The best source of vitamin D is a day outdoors under the sun.
-
-                A beautiful day spent in a mountain stream followed by a dinner of grilled fish. Sounds idyllic doesn't it? Spending 
-                long hours in nature with a focused task is akin to meditation, an activity linked to lowered blood pressure and decreased anxiety.
-            </p>
-        </div>
-        <p class="record-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </section>
     </main>
 
     <footer>
-        <img src="images/logo.webp" alt="Logo">
-        <div class="foot-address">
-            <h2>Ejule Onu Chambers</h2>
-            <p>21 Onyedega Street Along Market Road Ejule Onu,<br> Kogi State</p>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Abeokuta Chamber of Commerce logo"></a>
+            
+                <h3>Chamber of Commerce</h3>
+                <h4>
+                    Ikija, Abeokuta North, Abeokuta Ogun State, Nigeria
+                </h4>
+                <h4>
+                    +234-913-069-4355
+                </h4>
+            </div>
+            
+            <hr>
+
+            <p>&#169; <span id="copyrightYear"></span> Adam Adebesin .:|:.  Ogun State, Nigeria</p>
+                <p id="lastModified">
+            </p>
+            
         </div>
-        <div class="contact">
-            <p><em>jineepinee@gmail.com</em></p>
-            <p> +234 703 804 9456</p>
-            <p>📍Location Map</p>
-        </div>   
-        <p class="copy"> &copy;<span id="year"></span> Ejule Onu Chambers | <strong>Omachona God'spower Richard</strong> | WDD 230 Project | Last Updated: <span id="datetime"></span></p>
+
     </footer>
-</div>
-<script src="js/scripts.js"></script>
+ 
 </body>
+
 </html>
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Secu

@@ -63,10 +63,12 @@
     .contact {
         margin-left: 220px;
     }
-   .address img{
-    margin-bottom: 120px;
-    width: 30%;
-   }
+    .address img {
+        padding-top: 45px;
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+    }
     .address p {
         margin-top: -25px;
         text-align: center;
@@ -125,58 +127,25 @@
         padding-top: 40px;
     }
     .join {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 30px auto;
+        grid-column: 1/2;
+        grid-row: 3;
+        height: 100%;
     }
-
-    .join .about {
-        width: 40%;
-    }
-
-    .join .about div:nth-child(5) {
-        margin-bottom: 30px;
-    }
-
-    .join .about div:nth-child(2) {
+    .join p {
+        margin-left: 20px;
+        color: #012a4a;
+        margin-bottom: 40px;
         margin-top: 30px;
     }
-
-    .join .about h2 {
-        margin-top: 40px;
-        font-size: 1.6rem;
-    }
-
-    .join .about h4 {
-        display: none;
-    }
-
-    .join form {
-        width: 40%;
-    }
-    
-    .join form .entry:nth-child(1) {
+    .join a {
+        border: 1px solid;
+        color: #2c7da0;
+        background-color: aliceblue;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: 150px;
         margin-top: 40px;
     }
-
-    .join form .entry {
-        flex-direction: row;
-        width: 90%;
-    }
-
-    .join form .entry label {
-        flex-basis: 12.5rem;
-        font-size: 1rem;
-    }
-
-    .join form fieldset {
-        width: 85%;
-    }
-
-    .join form .joBtn {
-        flex-basis: 100%;
-    }
-
     .hero {
         grid-column: 2/4;
         grid-row: 1/2;
@@ -266,19 +235,18 @@
     .spot img {
         width: 265px;
     }
-
-     /* ...............Discovery Page ....................*/
-     #discovermain {
+    /* Discovery Page */
+    #discovermain {
         margin: 0 auto;
         max-width: 1080px;
     }
     .top {
         padding: 30px 90px 10px 90px;
     }
-    .top h2 {
+    .top h2,
+    .top p {
         font-size: 1.7rem;
     }
-    
     #gallery {
         margin: 0 auto;
         grid-template-columns: 1fr 1fr;
@@ -295,7 +263,7 @@
     #gallery p {
         color: white;
         text-align: center;
-        font-size: 1.19rem;
+        font-size: 1.5rem;
     }
     #gallery :nth-child(3) {
         grid-column: 2/3;
@@ -325,6 +293,80 @@
         grid-column: 1/2;
         grid-row: 8;
     }
+    /* ----------------Join Ibadan Special Club -------------*/
+    #membership {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 220px;
+    }
+    .thanks {
+        margin: 40px auto 120px auto;
+    }
+    /* -------------------------------------Ibadan Business Directory Page-----------------------------------------------*/
 
-    
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 50px 50px;
+  }
+
+  .card address {
+    font-size: 1.4rem;
+  }
+
+  .card p {
+    margin-bottom: 1px;
+  }
+
+  .list tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+   /* ------------------------------ContactPage------------------------- */
+   .address-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    width: 600px;
+  }
+
+   .contact h3 {
+    font-size: 28px;
+  }
+  .contact h5 {
+    font-size: 18px;
+  }
+  .contact p {
+    margin-top: 32px;
+    font-size: 25px;
+  }
+  .contact-address {
+    width: 50%;
+  }
+  .contact-address img {
+    width: 100%;
+  }
+
+  .contact-card {
+    border-radius: 15px;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  .envelop {
+    font-size: 300px;
+    height: 90%;
+  }
+
 }
