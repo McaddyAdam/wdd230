@@ -168,6 +168,8 @@ header ul a:hover {
     margin-left: 20px;
     color: #012a4a;
     margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 }
 
 .join a {
@@ -222,16 +224,31 @@ header ul a:hover {
     background-color: #2c7da0;
 }
 
-.new h3,
+
 .event h3 {
     padding-left: 15px;
     margin-top: 5px;
     text-align: center;
+    border-bottom: solid;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -10px;
+    color: yellow;
+}
+
+.new h3 {
+    padding-left: 15px;
+    margin-top: 5px;
+    text-align: center;
     border-bottom: solid black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -30px;
 }
 
 .new p{
-    
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
 }
 
 .new li {
