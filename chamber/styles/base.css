@@ -329,16 +329,33 @@ header ul a:hover {
 /* Footer styles */
 footer {
     text-align: center;
-    background-color: rgb(1, 70, 90);
-    color: #fff; 
-    padding: 20px;
+    background-color: rgb(196, 208, 23);    
   }
   
-  #lastModified {
-    font-size: 12px;
-    color: yellow;
-  }
+  address a {
+    padding-top: 50px;  
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: -8em;
+}
 
+.address h3 {
+    font-size: 25px;
+}
+
+.address h4 {
+    margin-top: -20px;
+    text-align: center;
+    font-size: .5em;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+  
 /* Discover Page */
 
 main {
