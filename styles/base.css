@@ -73,7 +73,27 @@ nav li.active a:hover {
   color: white;
 }
 
+nav ul.navigation{
+  display: none;
+}
 
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: rgb(1, 70, 90);
+	color: white;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+	content: "❎";
+}
 
 @media only screen and (min-width: 40em) {
 	.navigation {
@@ -86,6 +106,9 @@ nav li.active a:hover {
 	.navigation a {
 		text-align: center;
 	}
+  #menu {
+    display: none;
+  }
 }
 
 
@@ -128,9 +151,14 @@ main .card ul li{
   padding: 10px;
 }
 
-#weather-container {
-  text-align: center;
+#weather-info {
+  background-color: #fff;
   padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(1, 70, 90);
+  margin: 20px auto;
+  max-width: 300px;
 }
 
 .card p {
