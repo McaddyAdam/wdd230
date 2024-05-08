@@ -1,0 +1,15 @@
+@media screen and (min-width: 700px){
+
+main {
+  grid-template-columns: 2fr 1fr;
+}
+
+.learning {
+  grid-row: 2/3;
+  
+}
+.information {
+  grid-row: 2/3;
+}
+
+}

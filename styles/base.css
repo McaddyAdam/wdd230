@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0 ;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+} 
+
+  /* Style the header */
+header {
+  margin: 0 auto;
+  max-width: 720px;
+  background-color: rgb(1, 70, 90);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 42px;
+}
+
+header h1 {
+    color: white;
+    padding: 30px;
+}
+
+header img {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0), -3px -3px 5px rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+/* navigation style */
+nav {
+  background-color: #05090c;
+  margin: 0 auto;
+  max-width: 720px; 
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li a {
+  color: #ffffff; /* Replace with your link color */
+  text-decoration: none;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 1px solid white;
+}
+
+nav li.active a {
+  color: black; 
+  font-weight: bold;
+  background-color:white;
+  border: 1px solid black;
+}
+
+nav li.active a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {  
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+}
+
+
+
+/* Main content styles */
+
+main {
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 1rem;
+}
+main h2 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.card {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    background-color: rgb(1, 70, 90);
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.card li a {
+  text-decoration: none;
+  color: rgb(35, 35, 200);
+}
+
+main .card ul li{list-style-type: none;}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: rgb(1, 70, 90);
+  color: #fff; 
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+#lastModified {
+  font-size: 12px;
+  color: yellow;
+}
