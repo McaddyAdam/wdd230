@@ -17,6 +17,7 @@ tr .name {
     color: #000000;
 }
 
+
 p,
 a,
 .text,
@@ -74,6 +75,7 @@ nav {
 .logo-container img {
     width: 150px;
 }
+
 
 nav ul {
     display: none;
