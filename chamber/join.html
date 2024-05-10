@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--edit this later-->
+    <meta name="description" content="Ibadan Chamber of Commerce Join Page" />
+    <title>Ibadan Chamber of Commerce - Join</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body id="content">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.webp" alt="Ibadan Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/khalid__24__"><img src="images/instagram.PNG" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com/in/elerunndu-victor-oluwapelumi-3a3331174"><img src="images/linkedin.PNG" alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="contact.html">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="date"></div>
+
+        <div class="banner">
+            <h4>
+                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </h4>
+        </div>
+    </header>
+
+    <main id="discovermain">
+        <div class="top">
+            <h2>Join Ibadan Special Club</h2>
+            <p>
+                Living in Ibadan is much more fun and interesting when you join our club. Signup today for Ibadan Special Club and gain access to amazing city services available for premium members
+            </p>
+        </div>
+
+        <section id="form">
+            <h3>Ibadan Special Club Application Form</h3>
+
+            <form action="thankyou.html" method="get">
+                <label class="blockview">First Name
+              <input type="text" placeholder="First name" name="fname" required
+            /></label>
+                <label class="blockview">Last Name
+              <input type="text" placeholder="Last name" name="lname" required
+            /></label>
+
+                <label class="blockview">Business Position
+              <input type="text" name="position" pattern="^[A-Za-z -]{7,}$"
+            /></label>
+
+                <label class="blockview">Email
+              <input
+                type="email"
+                name="email"
+                placeholder="someone@example.com"
+                required
+            /></label>
+                <label class="blockview">Phone Number <input type="tel" name="tel" required
+            /></label>
+                <label class="blockview">Business Name <input type="text" name="businessname" required
+            /></label>
+
+                <div id="membership">
+                    <div class="mtitle">Membership Level</div>
+
+                    <div>
+                        <label class="sbs"><input id="free" type="radio" name="membership" />NP
+                  Membership</label
+                >
+                <label class="sbs"
+                  ><input id="bronze" type="radio" name="membership" />Bronze
+                  Membership</label
+                >
+                <label class="sbs"
+                  ><input id="silver" type="radio" name="membership" />Silver
+                  Membership</label
+                >
+                <label class="sbs"
+                  ><input id="gold" type="radio" name="membership" />Gold
+                  Membership</label
+                >
+              </div>
+  
+              <div class="benefit">
+                <h5>Price: <span id="price"></span></h5>
+                <table>
+                  <tr>
+                    <th>Benefits:</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td id="one">Website Ads</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td id="two">Free Meal</td>
+                  </tr>
+  
+                  <tr>
+                    <td></td>
+                    <td id="three">Website Ads</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+  
+            <label class="blockview"
+              >Business Description
+              <textarea name="description" rows="4" cols="50"></textarea>
+            </label>
+                        <input type="hidden" id="time" name="time" />
+
+                        <input id="submitBtn" type="submit" value="Join Club" />
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.webp" alt="Ibadan Chamber of Commerce logo" /></a>
+                <h3>Chamber of Commerce</h3>
+                <p>
+                    4 Agodi Gardens, Ibadan<br /> Oyo State, Nigeria
+                </p>
+                <p>
+                    +234-907-777-1659
+                </p>
+            </div>
+            <div class="contact">
+                <a href="mailto:info@ibadanchamber.com"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/in/elerunndu-victor-oluwapelumi-3a3331174"><img src="images/linkedin.PNG" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/khalid__24__"><img src="images/instagram.PNG" alt="Instagram" /></a>
+                <a href="https://goo.gl/maps/HcazuXDALjwHDhrD6"><img src="images/location.png" alt="map icon"></a>
+            </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber <br />
+            Elerunndu Victor Oluwapelumi <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/benefit.js" defer></script>
+</body>
+
+</html>

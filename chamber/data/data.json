@@ -1,0 +1,138 @@
+{
+    "news": [{
+            "title": "Tinubu sympathizes with victims of gas explosion in Ogun",
+            "link": "https://newsdiaryonline.com/tinubu-sympathizes-with-victims-of-gas-explosion-in-ogun/"
+        },
+        {
+            "title": "British American Tobacco Nigeria Foundation invests N4bn, empowers 1,000 Ogun maize farmers",
+            "link": "https://businessday.ng/news/article/british-american-tobacco-nigeria-foundation-invests-n4bn-empowers-1000-ogun-maize-farmers/"
+        },
+        {
+            "title": "Gov Abiodun wins Independent Newspapers Governor Of The Year (Tech Innovation) Award",
+            "link": "https://dailypost.ng/2024/05/05/gov-abiodun-wins-independent-newspapers-governor-of-the-year-tech-innovation-award/"
+        },
+        {
+            "title": "Ogun community moves against alleged imposition of monarch",
+            "link": "https://thenationonlineng.net/ogun-community-moves-against-alleged-imposition-of-monarch/"
+        },
+        {
+            "title": "Ogun varsity graduates lament slow transcript processing",
+            "link": "https://thenationonlineng.net/ogun-varsity-graduates-lament-slow-transcript-processing/"
+        },
+        {
+            "title": "Police kill 2 suspected kidnappers, rescue 3 Indians in Ogun",
+            "link": "https://dailypost.ng/2024/05/08/police-kill-2-suspected-kidnappers-rescue-3-indians-in-ogun/"
+        },
+        {
+            "title": "Ogun Assembly seeks integration of mental health services into general hospitals",
+            "link": "https://gazettengr.com/ogun-assembly-seeks-integration-of-mental-health-services-into-general-hospitals/"
+        },
+        {
+            "title": "Son, Ogun partner on CNG use",
+            "link": "https://thenationonlineng.net/son-ogun-partner-on-cng-use/#google_vignette"
+        }
+    ],
+    "businesses": [{
+            "name": "Federal Medical Centre, Abeokuta",
+            "email": "fmca.emrunit@fmcabeokuta.org",
+            "decscription": "The first class medical professionals focus on individual care and quality treatmeant for everyone",
+            "imageurl": "images/fmc.webp",
+            "street": "P.M.B 3031, Olabisi Onabanjo Way",
+            "city": " Abeokuta, Ogun, Nigeria",
+            "number": "+234 803 376 5192",
+            "website": "https://www.fmcabeokuta.net/",
+            "membership": "Non Profit"
+        },
+        {
+            "name": "Park Inn by Raddisson",
+            "email": "info@parkinnbyradisson.com",
+            "decscription": "Hotel, Reservation, Tourism",
+            "imageurl": "images/media.webp",
+            "street": "IBB Boulevard, Kuto",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 810 039 0046",
+            "website": "https://www.guestreservations.com/park-inn-by-radisson-abeokuta/booking?gad_source=1&gclid=Cj0KCQjw6PGxBhCVARIsAIumnWbmqdONNEEYCqDNtpMKa2s280k52w0NvAmjxFvUGdAY5C9DAnWxNo0aAvwXEALw_wcB",
+            "membership": "Gold"
+        },
+
+        {
+            "name": "Olusegun Obasanjo ",
+            "email": "info@oopl.com.ng",
+            "decscription": "Business networking, Business Growth, and Tourism",
+            "imageurl": "images/hub.webp",
+            "street": "Presidential Boulevard Way, Oke Mosan",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 809 724 0000",
+            "website": "https://oopl.org.ng/",
+            "membership": "Bronze"
+        },
+
+        {
+            "name": "Abeokuta Golf Resort - The Hoilltop",
+            "email": "info@abeokutagolfresort.com.ng",
+            "decscription": "Golf,, Fitness, Clubhouse and Billiards",
+            "imageurl": "images/golf.webp",
+            "street": "Hilltop housing estate, Oke-mosan",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 803 242 3744",
+            "website": "https://www.golfpass.com/travel-advisor/courses/31980-abeokuta-golf-resort-the-hilltop#about",
+            "membership": "silver"
+        },
+        {
+            "name": "OPIC",
+            "email": "info@opicgroup.com",
+            "decscription": "Opic Real Estate",
+            "imageurl": "images/opic.webp",
+            "street": "Along Presidential - Boulevard Oke-Mosan,",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 817 215 1180",
+            "website": "https://opicgroup.com/kings-court/",
+            "membership": "silver"
+        },
+        {
+            "name": "Federal University of Agriculture, Abeokuta",
+            "email": "registrar@funaab.edu.ng",
+            "decscription": "University",
+            "imageurl": "images/unaab.webp",
+            "street": "P.M.B 2240, Alabata Road,",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 802 763 7814",
+            "website": "https://funaab.edu.ng/",
+            "membership": "silver" 
+        },
+        {
+          
+            "name": "Centenary Hall-Abeokuta",
+            "email": "info@centenary.com.ng",
+            "decscription": "Centenary Hall",
+            "imageurl": "images/hall.webp",
+            "street": "Ake,",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 806 339 4414",
+            "website": "https://www.google.com.ng/travel/hotels/entity/ChcIwrqMxqLej5QHGgsvZy8xdGhrbmpjchAE?utm_campaign=sharing&utm_medium=link&utm_source=htls&ved=0CAAQ5JsGahcKEwiA1uK-xIGGAxUAAAAAHQAAAAAQBQ&ts=CAEaBAoCGgAqBAoAGgA",
+            "membership": "Gold"   
+        },
+        {
+            "name": "Crispy Barbers Lounge",
+            "email": "info@crispybarbers-lounge.com",
+            "decscription": "Barbing Salon",
+            "imageurl": "images/crispy.webp",
+            "street": "  Allahu Wakeel Plaza, 77 Totoro Road, Ikeredu-Idan,",
+            "city": "Abeokuta, Ogun, Nigeria",
+            "number": "+234 812 266 1511",
+            "website": "https://www.instagram.com/crispy_barbers_lounge/",
+            "membership": "Gold" 
+        },
+        {
+            "name": "LBC Event Centre",
+            "email": " lbcsagamu@gmail.com",
+            "decscription": "Event Centre",
+            "imageurl": "images/lbc.webp",
+            "street": "Off Hospital Road, Adodi Junction,",
+            "city": "Sagamu, Ogun, Nigeria",
+            "number": "+234 905 065 0989",
+            "website": "https://lbcsagamu.com/",
+            "membership": "Gold"   
+        }
+    ]
+}
