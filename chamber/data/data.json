@@ -34,7 +34,7 @@
     ],
     "businesses": [{
             "name": "Federal Medical Centre, Abeokuta",
-            "email": "fmca.emrunit@fmcabeokuta.org",
+            "email": "fmca.emrunit@fmcabk.org",
             "decscription": "The first class medical professionals focus on individual care and quality treatmeant for everyone",
             "imageurl": "images/fmc.webp",
             "street": "P.M.B 3031, Olabisi Onabanjo Way",
@@ -69,8 +69,8 @@
 
         {
             "name": "Abeokuta Golf Resort - The Hoilltop",
-            "email": "info@abeokutagolfresort.com.ng",
-            "decscription": "Golf,, Fitness, Clubhouse and Billiards",
+            "email": "info@abkgolfresort.com.ng",
+            "decscription": "Golf, Fitness, Clubhouse and Billiards",
             "imageurl": "images/golf.webp",
             "street": "Hilltop housing estate, Oke-mosan",
             "city": "Abeokuta, Ogun, Nigeria",
