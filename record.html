@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glauber Marques - WDD 230 - Thank you Webpage</title>
+  <meta name="author" content="Glauber Marques">
+  <meta name="description" content="WDD 230 - Thank you Webpage">
+  <meta property="og:title" content="Glauber Marques WDD230 Assignment - Thank you Webpage">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://www.mustdocanada.com/wp-content/uploads/2022/12/Calgary-in-the-winter-1024x683.jpg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+
+  <!-- Icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/form.css">
+
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>  
+  <header>
+    <img src="images/MyPhoto.webp" alt="Glauber Marques">
+    <h1>Glauber Marques</h1>
+  </header>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="./index.html" class="active nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./lesson03/chamber-site-plan.html" target="_blank" class="nav-link">Site Plan</a>
+        </li>
+        <li class="nav-item">
+          <a href="./chamber/index.html" target="_blank" class="nav-link">Chamber</a></li>
+        <li class="nav-item">
+          <a href="https://www.byui.edu" target="_blank" class="nav-link">BYU-Idaho</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3.7?lang=eng#p6" target="_blank" class="nav-link">1 Nephi 3:7</a>
+        </li>
+      </ul>
+      <div class="hamburger" role="button" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="thankyou-area">
+      <h1>Thank You for Your Submission </h1>
+      <p>Your form has been successfully submitted.</p>    
+      <div class="data-submitted">
+        <h2>Here is the information you just submitted</h2>
+        <p>Applicant's Username: <span id="username" class="noborder"></span></p>
+        <p>Email Address: <span id="email"></span></p>
+        <p>Page Rating: <span id="pageRating"></span></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>©<span id="copyright"></span></p>
+    <p>Glauber Marques | Calgary, Canada</p> 
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById("timestamp").value = new Date().toLocaleString();
+  </script>
+
+  <script src="scripts/getdates.js"></script>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/renderFormData.js"></script>
+
+</body>
+
+</html>

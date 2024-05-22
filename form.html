@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adam Adebesin - WDD 230 - Web Frontend Development</title>
+  <meta name="description" content="WDD 230 - Web Frontend Development - Adam Adebesin course assignment portal">
+  <meta name="author" content="Adam Adebesin">
+  <meta property="og:title" content="WDD230">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://maps.app.goo.gl/23JbMjhEmNKQ2upS6">
+  <meta property="og:url" content="https://mcaddyadam.github.io/wdd230/index">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/larger.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/form.css">
+  
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" >
+</head>
+
+<body>
+
+    <header>
+        <img src="images/adam.jpg" alt="adam picture" >
+      <div id="mode">
+        🕶️
+      </div>
+        <h1>Adam T. Adebesin </h1>
+      </header>
+    
+      <a id="menu" href="#"></a>
+      <nav>
+        <ul class="navigation">
+          <li class="active"><a href="https://mcaddyadam.github.io/wdd230/index">Home</a></li>
+          <li><a href="#">Chamber</a></li>
+          <li><a href="#">Site Plan</a></li>
+          <li><a href="#">Form</a></li>
+          <li><a href="#" title="About" class="active">About Us</a></li>
+        </ul>
+      </nav>
+    <main>
+      <div class="form-area">
+        <form class="main-form" action="record.html" method="get" onsubmit="validateForm(event)">
+          <h1 class="form-heading">Form Assignment</h1>
+          <div class="form-field">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+
+          <div class="form-field">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required
+              pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+              title="Password must be at least 8 characters long and include both letters and numbers.">
+          </div>
+
+          <div class="form-field">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email (BYUI only):</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="pageRating">Page Rating:</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1"
+              oninput="updateRatingValue(this.value)">
+            <span id="ratingValue">5</span>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126855.66103033844!2d3.391488!3d6.4913408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1696121088249!5m2!1sen!2sng" width="685" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+        <p>&#169; <span id="copyrightYear"></span> Adam Adebesin .:|:.  Ogun State, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/visitcount.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/mode.js"></script>
+    <script src="scripts/renderFormData.js"></script>
+
+</body>
+
+</html>
