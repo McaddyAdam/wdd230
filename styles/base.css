@@ -129,7 +129,7 @@ nav li.active a:hover {
 	}
   #menu {
     display: none;
-  }
+  } 
 }
 
 #mode {
@@ -145,43 +145,80 @@ nav li.active a:hover {
 
 main {
     max-width: 720px;
-    display: grid;
-    grid-template-columns: 1fr;
     margin: 0 auto;
-    gap: 1rem;
+    padding: 1rem;
 }
+
+.image-container {
+  position: relative;
+}
+
+.temple-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.5);
+	padding: 0.7rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+  margin: 0;
+	font-weight: 600;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  display: flex;
+  padding: 1rem;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+ul li{
+  list-style-type: none;
+  padding: 7px;
+}
+
+.content p {
+  text-align: center;
+  padding: 10px;
+}
+
+main li a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+.learning-activities, .information {
+  box-shadow: 1px 1px 1px black, -1px -1px 3px black;
+}
+
+.colorful-header {
+  background-color: #4D5B97;
+  color: #ffffff;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15;
+}
+
 main h2 {
     margin-top: 1rem;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
     text-decoration: underline;
 }
 
-.card {
-    box-shadow: 1px 1px 3px rgb(0, 0, 0), -1px -2px 3px rgb(0, 0, 0);
-    margin-bottom: 10px;
-}
-
-.card h3{
-    background-color: rgb(1, 70, 90);
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-}
-
-.card li a {
-  text-decoration: none;
-  color: rgb(35, 35, 200);
-}
-
-main .card ul li{
-  list-style-type: none;
-  padding: 10px;
-}
-
-.card p {
-  text-align: center;
-  padding: 20px;
+.map iframe {
+  width: 100%;
+  height: 300px;
 }
 
 /* Footer styles */
