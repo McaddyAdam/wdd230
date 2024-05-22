@@ -177,7 +177,7 @@ main {
   display: flex;
   padding: 1rem;
   margin: 0 auto;
-  gap: 1rem;
+  gap: 1.1rem;
 }
 
 ul li{
