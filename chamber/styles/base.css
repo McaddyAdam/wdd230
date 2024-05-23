@@ -493,29 +493,25 @@ main {
 .top h2 {
     padding-top: 10px;
     margin-top: 0;
-    color: #012a4a;
+    color: rgb(196, 208, 23);
     text-align: center;
     font-size: 1.6rem;
 }
-
 .top p {
     margin-top: 0;
-    color: #012a4a;
+    color: #ffffff;
     text-align: center;
     font-size: 1.6rem;
 }
 
 .top h5 {
-    color: #012a4a;
+    color: rgb(196, 208, 23);
     text-align: center;
 }
 
 #gallery {
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 15px 30px 15px;
-    grid-gap: 1px;
 }
 
 #gallery img {
@@ -531,7 +527,7 @@ main {
 }
 
 #gallery div.blue {
-    background-color: #012a4a;
+    background-color: rgb(241, 229, 229);
     padding: 35px 30px 40px 30px;
 }
 
@@ -541,14 +537,14 @@ main {
 }
 
 #gallery p {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 1.4rem;
 }
 
 .blue h4,
 .light-blue h4 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 1.2rem;
     margin: 0;
