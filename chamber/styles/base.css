@@ -516,14 +516,10 @@ main {
 
 #gallery img {
     width: 100%;
+    height: 100%;
     filter: blur(0em);
-    transition: filter 0.5s;
-    transition: transform 0.2s;
-}
-
-#gallery img[data-src] {
-    width: 100%;
-    filter: blur(0.2em);
+    transition: filter 0.7s;
+    transition: transform 0.5s;
 }
 
 #gallery div.blue {
