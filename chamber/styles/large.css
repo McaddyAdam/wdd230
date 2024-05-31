@@ -294,7 +294,7 @@
         grid-column: 1/2;
         grid-row: 8;
     }
-    /* ----------------Join Ibadan Special Club -------------*/
+    /* ----------------Join Abeokuta Special Club -------------*/
     #membership {
         margin-top: 15px;
         display: grid;
@@ -304,7 +304,7 @@
     .thanks {
         margin: 40px auto 120px auto;
     }
-    /* -------------------------------------Ibadan Business Directory Page-----------------------------------------------*/
+    /* -------------------------------------Abeokuta Business Directory Page-----------------------------------------------*/
 
   .cards {
     grid-template-columns: repeat(3, 1fr);

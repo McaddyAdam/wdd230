@@ -551,7 +551,7 @@ main {
 }
 
 
-/* ----------------Join Ibadan Special Club -------------*/
+/********************************join********************************/
 
 #form {
     margin: 0 auto 40px auto;
@@ -646,7 +646,8 @@ input[name="membership"] {
 
 .benefit {
     margin-top: 10px;
-    background-color: #a9d6e5;
+    background-color: #d4f4ff;
+    color: rgb(40, 6, 71);
     padding: 5px;
     display: none;
     border-radius: 5px;
@@ -670,7 +671,7 @@ td {
     padding-bottom: 30px;
 }
 
-/* -------------------------------------Ibadan Business Directory Page-----------------------------------------------*/
+/* -------------------------------------Abeokuta Business Directory Page-----------------------------------------------*/
 
 .cards {
     margin: 10px 0 40px 0;
