@@ -216,6 +216,11 @@ main h2 {
     text-decoration: underline;
 }
 
+#weather-info img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 .map iframe {
   width: 100%;
   height: 300px;
